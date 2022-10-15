@@ -30,6 +30,7 @@ def func_generator(k):
             else:
                 func += f' - {-koeff}*x^{i}'
             a += 1
+    func += ' = 0'
     return func
 
 k = int(input('Enter an integer: '))
